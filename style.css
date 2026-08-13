@@ -1,0 +1,96 @@
+/* Configurações Globais e Acessibilidade */
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: Arial, Helvetica, sans-serif; /* Fonte sem serifa para fácil leitura */
+    background-color: #f4f6f9;
+    color: #111111; /* Alto contraste para o texto base */
+    line-height: 1.6;
+    font-size: 1.1rem;
+}
+
+/* Container para centralizar o conteúdo */
+.container {
+    max-width: 900px;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+/* Cabeçalho */
+.header {
+    background-color: #0d2b45; /* Azul Escuro */
+    color: #ffffff;
+    padding: 30px 0;
+    text-align: center;
+    border-bottom: 5px solid #d90429; /* Detalhe em Vermelho */
+}
+
+.header h1 {
+    font-size: 2rem;
+    margin-bottom: 5px;
+}
+
+.school {
+    font-size: 1.2rem;
+    color: #e0e0e0;
+}
+
+/* Cartões de Conteúdo */
+.card {
+    background-color: #ffffff;
+    border-left: 6px solid #0d2b45; /* Borda Azul Escuro */
+    border-radius: 8px;
+    padding: 25px;
+    margin-top: 25px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.05);
+}
+
+.intro {
+    border-left-color: #d90429; /* Destaque em Vermelho na intro */
+}
+
+/* Títulos */
+h2 {
+    color: #0d2b45;
+    margin-bottom: 15px;
+    font-size: 1.5rem;
+}
+
+/* Glossário */
+dt {
+    font-weight: bold;
+    color: #d90429; /* Vermelho para destaque dos termos */
+    font-size: 1.2rem;
+    margin-top: 15px;
+}
+
+dd {
+    margin-left: 0;
+    margin-bottom: 10px;
+}
+
+/* Links Acessíveis */
+a {
+    color: #0d2b45;
+    font-weight: bold;
+    text-decoration: underline;
+}
+
+a:hover, a:focus {
+    color: #d90429;
+    background-color: #ffe6e6;
+}
+
+/* Rodapé */
+.footer {
+    text-align: center;
+    padding: 20px;
+    margin-top: 40px;
+    background-color: #0d2b45;
+    color: #ffffff;
+    font-size: 0.9rem;
+}
